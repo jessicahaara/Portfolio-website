@@ -2,8 +2,8 @@
   <div id="app">
     <Header @scrollclick="scroll" v-if="showHeader" class="fixed" />
     <MainFirst @scrollclick="scroll" />
-    <About id="about" />
-    <Lia id="lia" />
+    <About id="about" @toContact="scroll" />
+    <!-- <Lia id="lia" /> -->
     <Projects id="projects" />
     <Contact id="contact" />
   </div>
@@ -15,7 +15,7 @@ import MainFirst from "./components/main/MainFirst.vue";
 import About from "./components/main/About.vue";
 import Contact from "./components/main/Contact.vue";
 import Projects from "./components/main/Projects.vue";
-import Lia from "./components/main/Lia.vue";
+// import Lia from "./components/main/Lia.vue";
 
 export default {
   name: "App",
@@ -23,7 +23,7 @@ export default {
     Header,
     MainFirst,
     About,
-    Lia,
+    // Lia,
     Projects,
     Contact,
   },
@@ -72,11 +72,9 @@ export default {
   margin: 0px;
   padding: 0px;
   --beige: #f6e5dc;
-  --dark-beige: #caa38e;
-  --light-green: #cedccf;
-  --green: #93b396;
+  --pink: #e5615f;
+  --green: #7e8677;
   --almost-black: #444440;
-  --purple: #b393b0;
 }
 
 html,

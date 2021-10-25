@@ -13,12 +13,12 @@ export default {
 <style scoped>
 button {
   font-family: "Raleway", sans-serif;
-  color: var(--green);
+  color: var(--pink);
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bold;
   padding: 10px 20px;
-  border: 2.5px solid var(--green);
+  border: 2.5px solid var(--pink);
   background-color: transparent;
   display: flex;
   align-items: center;
@@ -29,11 +29,9 @@ button {
 }
 
 button:hover {
-  background-color: var(--green);
+  background-color: var(--pink);
   color: #fff;
 }
-
-
 
 /* @media only screen and (max-width: 930px) {
 	button {

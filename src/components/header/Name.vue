@@ -1,11 +1,17 @@
 <template>
   <section class="name">
-    <h1></h1>
+    <h1 @click="toTop()"></h1>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    toTop() {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    },
+  },
+};
 </script>
 
 <style scoped>

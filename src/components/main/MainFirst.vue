@@ -238,11 +238,11 @@ h2 span:hover {
   }
 
   h2 {
-    font-size: 7vw;
+    font-size: 6vw;
   }
 
   p {
-    font-size: 6vw;
+    font-size: 5.5vw;
   }
   .text {
     height: auto;

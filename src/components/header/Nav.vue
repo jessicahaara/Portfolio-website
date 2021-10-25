@@ -4,14 +4,14 @@
       <li class="normal first" @click="scroll('about')">
         <span>1.</span> Om mig
       </li>
-      <li class="normal second" @click="scroll('lia')">
+      <!-- <li class="normal second" @click="scroll('lia')">
         <span>2.</span> LIA 2022
-      </li>
+      </li> -->
       <li class="normal third" @click="scroll('projects')">
-        <span>3.</span> Projekt
+        <span>2.</span> Projekt
       </li>
       <li class="normal fourth" @click="scroll('contact')">
-        <span>4.</span> Kontakt
+        <span>3.</span> Kontakt
       </li>
       <li class="last">
         <SmallButton v-bind:buttonTitle="'CV'" @click.native="openResume()" />
@@ -34,14 +34,14 @@
         <li class="normal first" @click="scroll('about')">
           <span>1.</span> Om mig
         </li>
-        <li class="normal second" @click="scroll('lia')">
+        <!-- <li class="normal second" @click="scroll('lia')">
           <span>2.</span> Lia 2022
-        </li>
+        </li> -->
         <li class="normal third" @click="scroll('projects')">
-          <span>3.</span> Projekt
+          <span>2.</span> Projekt
         </li>
         <li class="normal fourth" @click="scroll('contact')">
-          <span>4.</span> Kontakt
+          <span>3.</span> Kontakt
         </li>
         <li class="last">
           <SmallButton v-bind:buttonTitle="'CV'" @click.native="openResume()" />

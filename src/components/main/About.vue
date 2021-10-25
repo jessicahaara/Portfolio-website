@@ -4,13 +4,13 @@
     <h2><span>1.</span> Om mig</h2>
     <p>
       "Efter Covid-19 kommer <span>kodning 2021</span>", lyder inget ordspråk.
-      Men pandemin medförde ett nytt karriärsval för mig åtminstone. Jag hade
+      Men pandemin medförde ett nytt karriärsval för mig åtminstone. Jag har
       tidigare utbildat mig till <span>digital analytiker </span>men blev
       kortvarig i den världen innan jag insåg att kodning var roligare. Men
       självklart tycker jag fortfarande analys är både viktigt och intressant.
       Att jag drogs mer till koden tror jag har att göra med min
       <span>förkärlek till problemlösning</span>. Det märks då jag på fritiden
-      ofta lägger pussel, löser suduko och utmanar vänner i spel (både brädspel
+      gärna lägger pussel, löser suduko och utmanar vänner i spel (både brädspel
       och datorspel). <br /><br />Programmering är verkligen något jag brinner
       för och det vet jag eftersom att jag kan komma på mig själv med att sitta
       med nya <span>kodningsprojekt</span>. Ofta alldeles för sent på kvällarna
@@ -19,16 +19,31 @@
       koden under dagen. <br /><br />
       Förutom när jag programmerar så mår jag bra av min familj, som består av
       en sambo, två barn och en liten hund. Jag gillar också att vara ute i
-      naturen, läsa någon spännande bok, lyssna på nån bra podd i bilen eller
-      åka och kolla på när <span>Djurgården vinner fotbollsmatcher.</span> Och
+      naturen, läsa någon spännande bok, lyssna på en bra podd i bilen eller åka
+      och kolla på när <span>Djurgården vinner fotbollsmatcher.</span> Och
       precis som många andra gillar även jag att sitta lite för länge i soffan
       och kolla TV-serier.
+    </p>
+
+    <p class="no-border">
+      Vill du veta mer kan du kolla in mitt
+      <span class="link"
+        ><a href="/JessicaHaaraCV.pdf" target="_blank">CV</a></span
+      >
+      eller <span class="link" @click="toContact()"> kontakta mig</span> för
+      frågor.
     </p>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    toContact() {
+      this.$emit("toContact", "contact");
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -58,7 +73,7 @@ h2 span {
 p {
   margin-top: 0;
   width: 100%;
-  font-size: 3vh;
+  font-size: 3.5vh;
   font-family: "Assistant", sans-serif;
   border-left: 4px solid var(--green);
   padding-left: 1vw;
@@ -67,6 +82,22 @@ p {
 p span {
   color: var(--green);
   font-weight: bold;
+}
+
+.no-border {
+  border-left: none;
+}
+
+.link,
+.link a {
+  color: var(--pink);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:hover,
+.link a:hover {
+  color: var(--almost-black);
 }
 
 @keyframes hide-h2 {
