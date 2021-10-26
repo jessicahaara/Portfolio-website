@@ -142,22 +142,22 @@
           mellan komponenter. Jag sparar ner data i
           <span>localStorage</span> för att bilder man gillar ska kommas ihåg.
           Med Unsplash egna API kan jag hämta bilder utifrån vad användaren
-          söker på samt ta fram slumpmässigt utvalda bilder. (länk kommer)
+          söker på samt ta fram slumpmässigt utvalda bilder.
         </p>
 
         <p>
-          <!-- <a href="http://unsplash-api.jessicahaara.com/" target="_blank">
+          <a href="http://unsplash-api.jessicahaara.com/" target="_blank">
             Gå till Unsplash API
           </a>
-          eller -->
+          eller
           <a href="https://github.com/jessicahaara/unsplah-api" target="_blank"
             >Se kod på GitHub</a
           >
         </p>
       </div>
-      <!-- <a href="http://unsplash-api.jessicahaara.com" target="_blank"> -->
+      <a href="http://unsplash-api.jessicahaara.com" target="_blank">
         <img src="@/assets/unsplash.jpg" alt="bild på photo search hemsida" />
-      <!-- </a> -->
+      </a>
     </article>
 
     <article class="last">
