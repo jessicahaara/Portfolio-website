@@ -63,7 +63,6 @@ h2 {
   font-size: 5vh;
   text-transform: uppercase;
   margin-bottom: 2vh;
-  animation: hide-h2 4s;
 }
 
 h2 span {
@@ -98,20 +97,6 @@ p span {
 .link:hover,
 .link a:hover {
   color: var(--almost-black);
-}
-
-@keyframes hide-h2 {
-  0% {
-    opacity: 0;
-  }
-
-  99% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
 }
 
 @media only screen and (max-width: 852px) {

@@ -1,6 +1,6 @@
 <template>
   <section class="contact">
-    <h2><span>3.</span> Kontakt</h2>
+    <h2><span>4.</span> Kontakt</h2>
     <div class="flex">
       <div class="contact-info">
         <p>Vill du komma i kontakt med mig?</p>

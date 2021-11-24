@@ -8,6 +8,79 @@
     </h4>
 
     <article>
+      <a href="https://bingo.jessicahaara.com/" target="_blank">
+        <img
+          src="@/assets/bingo.jpg"
+          alt="bild på recensörerna bingo hemsida"
+        />
+      </a>
+      <div class="text">
+        <h3>Recensörerna Bingo</h3>
+        <p>
+          En digital bingo-bricka som jag byggt upp utifrån
+          ämnen/personer/citat/ord som ofta dyker upp i en av mina
+          favoritpoddar. Man kan bocka av när man hör något nämnas och får man
+          fem i rad så får man bingo! Vad som finns på brickan slumpas fram. Man
+          kan även byta färg på både bricka och "pennan" samt slumpa fram en ny
+          bricka.
+        </p>
+
+        <p>
+          Detta är ett privat projekt för att jag ville öva mer på
+          <span>React.</span> Och framförallt
+          <span>state management.</span> Applikationen börjar med att slumpa
+          fram 25 olika objekt till brickan. Vissa objekt innehåller bilder och
+          klasser som gör att de ser olika ut på brickan. Bingobrickan är
+          <span>responsiv</span> och jag använder mig av
+          <span>keyframes</span> för att få appen att kännas mer interaktiv.
+        </p>
+
+        <p>
+          <a href="https://bingo.jessicahaara.com/" target="_blank">
+            Gå till Recensörerna Bingo
+          </a>
+          eller
+          <a href="https://github.com/jessicahaara/rec-bingo" target="_blank"
+            >Se kod på GitHub</a
+          >
+        </p>
+      </div>
+    </article>
+
+    <article class="reverse">
+      <div class="text">
+        <h3>Wordpress tema</h3>
+        <p>
+          Ett spimpelt wordpress tema med olika typer av templates. En startsida
+          med en bild och text, en bloggsida där alla poster kommer upp och info
+          om posten. Det finns även andra sidor som är mer statiska där man kan
+          välja om man vill ha en sidebar/foto och i så fall vilken sida den ska
+          vara på.
+        </p>
+        <p>
+          Uppgiften var att göra om en statisk HTML-sida till ett
+          <span>fungerande tema i wordpress</span>. Det har jag gjort med
+          <span>PHP for Wordpress</span>. Genom att skapa
+          <span>olika templates</span> kan användaren i dashboarden i wordpress
+          välja hur deras page ska se ut. Även gjort olika typer av
+          <span>widgets</span> så att det finns två olika sidebars och en footer
+          som användaren kan ändra innehåll på i dashborden. Temat skulle se ut
+          som den statiska hemsidan vi fick men jag har skrivit om all
+          <span>CSS</span> själv.
+        </p>
+        <p>
+          <a
+            href="https://github.com/jessicahaara/Wordpress-theme"
+            target="_blank"
+            >Se kod på GitHub</a
+          >
+        </p>
+      </div>
+
+      <img src="@/assets/wordpress.jpg" alt="bild på wordpress-tema" />
+    </article>
+
+    <article>
       <a
         href="https://fullstack-hamsterwars-jessica.herokuapp.com/"
         target="_blank"
@@ -59,10 +132,10 @@
         <h3>Portfolio</h3>
         <p>
           Min egna hemsida som jag använder som min portfolio där jag kan
-          berätta om mig själv och visa vad jag har gjort. Tanken är att
-          hemsidan ska fungera som ett sätt att söka jobb, LIA och kontakter.
-          Men den finns också här för att jag ska öva och kommer därför att
-          ändras och optimeras hela tiden.
+          berätta om mig själv och visa vad jag har gjort. Under min
+          föräldraledighet ville jag ha ett projekt för att inte tappa mina
+          kunskaper och även utvecklas. Då blev det ganska naturligt att göra en
+          portfolio som man kan använda sig av.
         </p>
 
         <p>
@@ -146,8 +219,8 @@
         </p>
 
         <p>
-          <a href="http://unsplash-api.jessicahaara.com/" target="_blank">
-            Gå till Unsplash API
+          <a href="https://photosearch.jessicahaara.com/" target="_blank">
+            Gå till Photo Search
           </a>
           eller
           <a href="https://github.com/jessicahaara/unsplah-api" target="_blank"
@@ -155,13 +228,13 @@
           >
         </p>
       </div>
-      <a href="http://unsplash-api.jessicahaara.com" target="_blank">
+      <a href="https://photosearch.jessicahaara.com/" target="_blank">
         <img src="@/assets/unsplash.jpg" alt="bild på photo search hemsida" />
       </a>
     </article>
 
     <article class="last">
-      <a href="http://e-wallet.jessicahaara.com" target="_blank">
+      <a href="https://wallet.jessicahaara.com/" target="_blank">
         <img src="@/assets/wallet.jpg" alt="bild på e-wallet hemsida" />
       </a>
       <div class="text">
@@ -182,7 +255,7 @@
         </p>
 
         <p>
-          <a href="http://e-wallet.jessicahaara.com/" target="_blank">
+          <a href="https://wallet.jessicahaara.com/" target="_blank">
             Gå till E-wallet
           </a>
           eller

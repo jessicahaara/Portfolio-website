@@ -3,7 +3,7 @@
     <Header @scrollclick="scroll" v-if="showHeader" class="fixed" />
     <MainFirst @scrollclick="scroll" />
     <About id="about" @toContact="scroll" />
-    <!-- <Lia id="lia" /> -->
+    <Lia id="lia" @scrollclick="scroll" />
     <Projects id="projects" />
     <Contact id="contact" />
   </div>
@@ -15,7 +15,7 @@ import MainFirst from "./components/main/MainFirst.vue";
 import About from "./components/main/About.vue";
 import Contact from "./components/main/Contact.vue";
 import Projects from "./components/main/Projects.vue";
-// import Lia from "./components/main/Lia.vue";
+import Lia from "./components/main/Lia.vue";
 
 export default {
   name: "App",
@@ -23,7 +23,7 @@ export default {
     Header,
     MainFirst,
     About,
-    // Lia,
+    Lia,
     Projects,
     Contact,
   },

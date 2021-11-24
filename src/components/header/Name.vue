@@ -17,7 +17,7 @@ export default {
 <style scoped>
 h1:before {
   content: "JH";
-  /* animation: h1-animation 3s; */
+  animation: h1-animation 2.2s;
 }
 
 h1 {
@@ -75,11 +75,9 @@ h1:hover {
 
   90% {
     content: "JH";
-    letter-spacing: 4px;
   }
 
   100% {
-    letter-spacing: -4px;
     font-size: 40px;
   }
 }

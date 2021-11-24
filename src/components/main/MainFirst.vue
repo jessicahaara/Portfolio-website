@@ -13,12 +13,12 @@
       <div class="buttons">
         <GreenButton
           v-bind:buttonTitle="'läs Om mig'"
-          @click.native="scrollToAbout()"
+          @click.native="scrollTo('about')"
         />
         <GreenButton
-          v-bind:buttonTitle="'se Mitt cv'"
-          @click.native="openResume()"
-          class="resume-button"
+          v-bind:buttonTitle="'se mina projekt'"
+          @click.native="scrollTo('projects')"
+          class="project-button"
         />
       </div>
     </div>
@@ -35,11 +35,8 @@ export default {
   },
 
   methods: {
-    openResume() {
-      window.open("/JessicaHaaraCV.pdf", "_blank");
-    },
-    scrollToAbout() {
-      this.$emit("scrollclick", "about");
+    scrollTo(section) {
+      this.$emit("scrollclick", section);
     },
   },
 };
@@ -116,7 +113,7 @@ h2 span:hover {
   animation: text-animation 2s;
 }
 
-.resume-button {
+.project-button {
   margin-left: 30px;
 }
 
@@ -261,7 +258,7 @@ h2 span:hover {
     margin-top: 10px;
   }
 
-  .resume-button {
+  .project-button {
     margin-top: 20px;
     margin-left: 0;
   }

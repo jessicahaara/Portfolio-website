@@ -28,7 +28,7 @@ button {
   background-position: 100%;
   background-size: 400%;
   transition: background-position 250ms ease-in-out;
-  width: 200px;
+  width: 250px;
 }
 
 button:hover {
@@ -50,7 +50,6 @@ button:hover span {
 @media only screen and (max-width: 930px) {
   button {
     padding: 10px 30px;
-    width: 200px;
   }
 }
 </style>
